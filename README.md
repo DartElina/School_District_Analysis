@@ -3,6 +3,8 @@
 
 The school board has notified our team that the students_complete.csv file shows evidence of tampering after we had completed a district analysis. It seems that the ninth graders of Thomas High School's grades have been altered. We have been asked to replace the math and reading scores for Thomas High School ninth graders with NaNs while keeping the rest of the data intact. Once we’ve replaced the math and reading scores with NaNs we repeated the school district analysis that produced the following report to describe how these changes affected the overall analysis.
 
+[Review Analysis that report is based on here.](https://github.com/DartElina/School_District_Analysis/blob/e543277d04521c351bdb044356cb19d595e3260f/PyCitySchools_Challenge.ipynb)
+
 We created a code that would replace the grades in the math and reading scores with null values so that the potentially tampered grades did not skew our analysis. The code identified the grades of 461 students and replaced them with null values. Image of resulting list of students iwth null grades:
 
 ![image](https://github.com/DartElina/School_District_Analysis/blob/213f1d799f720d4d50678c3f2897aafc405e4e86/Resources/code%20example%20null%20values%209%20AND%20Thomas.png)
